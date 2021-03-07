@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.imagesContainer {
+  display: flex;
+}
+
+.galleryElement {
+  list-style-type: none;
+  margin: 10px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
